@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.biodata {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.biodata label,
+.biodata input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.biodata input[type="submit"] {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.simpan {
+  border-radius: 6px;
+  cursor: pointer;
+}
+.lanjut {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 11px;
+  margin-bottom: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+}
